@@ -1,0 +1,33 @@
+{
+  "features": [
+    "project_type",
+    "budget_crore",
+    "planned_duration_months",
+    "contractor_rating",
+    "state",
+    "current_progress_pct",
+    "weather_risk",
+    "supply_chain_delays",
+    "num_past_delays"
+  ],
+  "project_types": [
+    "highway",
+    "dam",
+    "school",
+    "hospital",
+    "railway"
+  ],
+  "states": [
+    "UP",
+    "MP",
+    "Bihar",
+    "Gujarat",
+    "Maharashtra",
+    "Rajasthan"
+  ],
+  "weather_risks": [
+    "low",
+    "medium",
+    "high"
+  ]
+}
