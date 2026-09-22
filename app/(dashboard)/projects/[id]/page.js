@@ -54,7 +54,7 @@ export default function ProjectProfilePage({ params }) {
         num_past_delays: 1
       };
 
-      const res = await fetch("http://localhost:8000/predict", {
+      const res = await fetch("https://sih26103.onrender.com/predict", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload)
